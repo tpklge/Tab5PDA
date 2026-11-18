@@ -1,0 +1,67 @@
+{
+  "project": "Tab5PDA",
+  "version": "1.3.1",
+  "target": "esp32p4",
+  "board": "m5stack-tab5-p4",
+  "flash_mb": 16,
+  "psram_mb": 32,
+  "platform": "pioarduino 55.03.311 / Arduino 3.3.11",
+  "ui": {
+    "library": "LVGL 8.3.11",
+    "font_size_px": 16,
+    "resolution": [
+      1280,
+      720
+    ],
+    "menus_visible": 17,
+    "input_masks": "automatic ISO/BR date/time separators; numeric keypads; money up to two decimals",
+    "settings_controls": "brightness/volume sliders; timeout/date-format selectors; UTC hours -12..14",
+    "wifi": "background scan; network selection; save-and-connect; disconnect; NTP",
+    "draft_recovery": "explicit original type; discard-and-create requested type",
+    "physical_keyboard": "Tab5 Keyboard I2C 0x6D GPIO0/1; HID polling; visual field order",
+    "rotation": 3,
+    "flush": "typed RGB565 pushImage; full initial redraw",
+    "forms": "all fields visible; resize only while touch keyboard is open"
+  },
+  "storage": "microSD /Tab5PDA/state-{a,b}.pda; schema 2; reads schema 1",
+  "capacity": {
+    "records_including_trash": 1024,
+    "detail_bytes": 16384,
+    "aggregate_text_bytes": 1048576,
+    "snapshot_bytes": 4194304,
+    "estimated_state_budget_bytes": 4194304,
+    "alarm_states": 8192
+  },
+  "finance_storage": "PDA-LEDGER-2 generation+CSV CRC; reads legacy PDA-LEDGER-1; unreadable banks block writes",
+  "productivity": "20x8 CSV sheet with formulas; 128KiB TXT/MD editor with clipboard/find/replace/undo; 512KiB reader with page resume/bookmarks; JPEG/PNG/BMP gallery; accounts/income/budgets/monthly recurring ledger with alternating CRC snapshots and CSV export",
+  "priority_2_3": "notebooks/tags/favorites/templates; draft shelf; WAV recorder/player; vector ink; reminder center/quiet hours; SD file/CSV viewer; authenticated LAN transfer and browser editor; three-way sync; optional assistant bridge with confirmed proposals",
+  "companions": [
+    "assistant_bridge.py (Python 3, standard library, model server required)"
+  ],
+  "priority_1": "interactive today; day/week timeline; recurring hierarchical tasks; trash/undo; daily backup; ICS/VCF/CSV/TXT/MD interchange",
+  "backup": "pda-backup-v1 JSONL; expanded bases/new fields require compatible firmware",
+  "display_selection": "M5GFX 0.2.32 at runtime",
+  "panel_profiles": [
+    "ILI9881C/GT911",
+    "ST7123",
+    "ST7121"
+  ],
+  "hardware_validation": "pending on physical Tab5; panel and silicon revisions need bench checks",
+  "source_sha256": "55d30f1928886f6eeae5d778ec55e0d40739e9a6396b31381ac4ddb49edb5f30",
+  "images": [
+    {
+      "file": "Tab5PDA-1.3.1.bin",
+      "kind": "application",
+      "bytes": 2033536,
+      "sha256": "cff802f4987e76f02cd0cccc31d2515acdb7ed13ffa42b3cf5329052e9063f5c",
+      "reference_flash_offset": 65536
+    },
+    {
+      "file": "Tab5PDA-1.3.1-factory.bin",
+      "kind": "factory",
+      "bytes": 2099072,
+      "sha256": "0861f6e514f4c25400533030ced954c1636081280e8b439291f9916d58774913",
+      "reference_flash_offset": 0
+    }
+  ]
+}

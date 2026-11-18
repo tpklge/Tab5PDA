@@ -1,0 +1,45 @@
+{
+  "project": "Tab5PDA",
+  "version": "1.0.0",
+  "target": "esp32p4",
+  "board": "m5stack-tab5-p4",
+  "flash_mb": 16,
+  "psram_mb": 32,
+  "platform": "pioarduino 55.03.311 / Arduino 3.3.11",
+  "ui": {
+    "library": "LVGL 8.3.11",
+    "font_size_px": 16,
+    "resolution": [
+      1280,
+      720
+    ],
+    "menus_visible": 17,
+    "forms": "all fields visible; resize only while touch keyboard is open"
+  },
+  "storage": "microSD /Tab5PDA/state-{a,b}.pda; schema 2; reads schema 1",
+  "backup": "pda-backup-v1 JSONL, compatible with CardputerPDA 1.0.0",
+  "display_selection": "M5GFX 0.2.32 at runtime",
+  "panel_profiles": [
+    "ILI9881C/GT911",
+    "ST7123",
+    "ST7121"
+  ],
+  "hardware_validation": "pending on physical Tab5; panel and silicon revisions need bench checks",
+  "source_sha256": "9f2383980027d08f3bb1b02b5cd96ff354c65013ffa144d3b65e1927fea29465",
+  "images": [
+    {
+      "file": "Tab5PDA-1.0.0.bin",
+      "kind": "application",
+      "bytes": 1467888,
+      "sha256": "244c93c0e063eb6333dfee2bbaaa1cdeb814630c4f8e2f220aba448144dd0f04",
+      "reference_flash_offset": 65536
+    },
+    {
+      "file": "Tab5PDA-1.0.0-factory.bin",
+      "kind": "factory",
+      "bytes": 1533424,
+      "sha256": "305bc5a75ccc587c9bb0356aeec8178f0952e4b5fcb21ba70fa30a9bd076c8ff",
+      "reference_flash_offset": 0
+    }
+  ]
+}

@@ -1,0 +1,392 @@
+{
+  "consulted_on": "2026-10-16",
+  "timezone": "America/Cuiaba",
+  "methodology": {
+    "stars": "Public GitHub repo stargazers_count; not downloads",
+    "downloads": "Sum download_count for assets of every published release returned with full pagination; source archive downloads, clones, M5Burner, registries, containers and external sites are excluded",
+    "comments": "Most commented GitHub issue (is:issue, all states, sort comments descending); not total comments or unique people; pull requests excluded",
+    "tab5_downloads": "Subset of release asset filenames containing tab5, case insensitive; includes P4X when named Tab5"
+  },
+  "repositories": [
+    {
+      "repo": "78/xiaozhi-esp32",
+      "stars": 31280,
+      "forks": 7309,
+      "open_issues_and_prs": 675,
+      "subscribers": 256,
+      "pushed_at": "2026-10-16T13:14:17Z",
+      "archived": false,
+      "license": "MIT",
+      "server_date": "Fri, 16 Oct 2026 18:39:34 GMT",
+      "rate_remaining": "54",
+      "url": "https://api.github.com/repos/78/xiaozhi-esp32"
+    },
+    {
+      "repo": "slvDev/esp32-ai",
+      "stars": 4544,
+      "forks": 611,
+      "open_issues_and_prs": 23,
+      "subscribers": 59,
+      "pushed_at": "2026-09-23T08:08:10Z",
+      "archived": false,
+      "license": "MIT",
+      "server_date": "Fri, 16 Oct 2026 18:39:34 GMT",
+      "rate_remaining": "53",
+      "url": "https://api.github.com/repos/slvDev/esp32-ai"
+    },
+    {
+      "repo": "espressif/esp-sr",
+      "stars": 1540,
+      "forks": 225,
+      "open_issues_and_prs": 55,
+      "subscribers": 32,
+      "pushed_at": "2026-10-13T10:55:31Z",
+      "archived": false,
+      "license": "NOASSERTION",
+      "server_date": "Fri, 16 Oct 2026 18:39:34 GMT",
+      "rate_remaining": "52",
+      "url": "https://api.github.com/repos/espressif/esp-sr"
+    },
+    {
+      "repo": "espressif/esp-dl",
+      "stars": 1173,
+      "forks": 226,
+      "open_issues_and_prs": 47,
+      "subscribers": 27,
+      "pushed_at": "2026-10-15T08:01:39Z",
+      "archived": false,
+      "license": "MIT",
+      "server_date": "Fri, 16 Oct 2026 18:39:34 GMT",
+      "rate_remaining": "51",
+      "url": "https://api.github.com/repos/espressif/esp-dl"
+    },
+    {
+      "repo": "DaveBben/esp32-llm",
+      "stars": 645,
+      "forks": 82,
+      "open_issues_and_prs": 7,
+      "subscribers": 9,
+      "pushed_at": "2024-09-04T03:07:08Z",
+      "archived": false,
+      "license": null,
+      "server_date": "Fri, 16 Oct 2026 18:39:34 GMT",
+      "rate_remaining": "50",
+      "url": "https://api.github.com/repos/DaveBben/esp32-llm"
+    },
+    {
+      "repo": "lorcan35/TinkerTab",
+      "stars": 9,
+      "forks": 0,
+      "open_issues_and_prs": 46,
+      "subscribers": 0,
+      "pushed_at": "2026-06-14T00:54:45Z",
+      "archived": false,
+      "license": "MIT",
+      "server_date": "Fri, 16 Oct 2026 18:39:34 GMT",
+      "rate_remaining": "49",
+      "url": "https://api.github.com/repos/lorcan35/TinkerTab"
+    },
+    {
+      "repo": "m5stack/StackFlow",
+      "stars": 73,
+      "forks": 16,
+      "open_issues_and_prs": 1,
+      "subscribers": 9,
+      "pushed_at": "2026-05-25T09:27:13Z",
+      "archived": false,
+      "license": "MIT",
+      "server_date": "Fri, 16 Oct 2026 18:39:34 GMT",
+      "rate_remaining": "48",
+      "url": "https://api.github.com/repos/m5stack/StackFlow"
+    },
+    {
+      "repo": "m5stack/M5Module-LLM",
+      "stars": 36,
+      "forks": 10,
+      "open_issues_and_prs": 2,
+      "subscribers": 11,
+      "pushed_at": "2025-10-29T07:35:02Z",
+      "archived": false,
+      "license": "MIT",
+      "server_date": "Fri, 16 Oct 2026 18:39:34 GMT",
+      "rate_remaining": "47",
+      "url": "https://api.github.com/repos/m5stack/M5Module-LLM"
+    },
+    {
+      "repo": "hey-its-brian/tab5-cyberdeck",
+      "stars": 28,
+      "forks": 4,
+      "open_issues_and_prs": 0,
+      "subscribers": 0,
+      "pushed_at": "2026-10-15T20:32:50Z",
+      "archived": false,
+      "license": null,
+      "server_date": "Fri, 16 Oct 2026 18:39:35 GMT",
+      "rate_remaining": "45",
+      "url": "https://api.github.com/repos/hey-its-brian/tab5-cyberdeck"
+    },
+    {
+      "repo": "wangzongming/esp-ai",
+      "stars": 856,
+      "forks": 112,
+      "open_issues_and_prs": 0,
+      "subscribers": 12,
+      "pushed_at": "2026-01-09T04:35:03Z",
+      "archived": false,
+      "license": "MIT",
+      "server_date": "Fri, 16 Oct 2026 18:39:35 GMT",
+      "rate_remaining": "46",
+      "url": "https://api.github.com/repos/wangzongming/esp-ai"
+    },
+    {
+      "repo": "akdeb/ElatoAI",
+      "stars": 2059,
+      "forks": 255,
+      "open_issues_and_prs": 6,
+      "subscribers": 28,
+      "pushed_at": "2026-10-12T12:21:58Z",
+      "archived": false,
+      "license": "NOASSERTION",
+      "server_date": "Fri, 16 Oct 2026 18:39:35 GMT",
+      "rate_remaining": "44",
+      "url": "https://api.github.com/repos/akdeb/ElatoAI"
+    },
+    {
+      "repo": "ollama/ollama",
+      "stars": 183472,
+      "forks": 18331,
+      "open_issues_and_prs": 4312,
+      "subscribers": 1021,
+      "pushed_at": "2026-10-16T01:09:43Z",
+      "archived": false,
+      "license": "MIT",
+      "server_date": "Fri, 16 Oct 2026 18:39:35 GMT",
+      "rate_remaining": "43",
+      "url": "https://api.github.com/repos/ollama/ollama"
+    }
+  ],
+  "activity": [
+    {
+      "repo": "78/xiaozhi-esp32",
+      "releases": 68,
+      "assets": 4072,
+      "asset_downloads": 463458,
+      "tab5_assets": 13,
+      "tab5_asset_downloads": 1069,
+      "newest_release": "v2.5.2",
+      "release_url": "https://github.com/78/xiaozhi-esp32/releases",
+      "rate_remaining": "40",
+      "issues_total": 1180,
+      "search_incomplete": false,
+      "most_commented_issue": {
+        "number": 1706,
+        "title": "esp-box-3",
+        "comments": 51,
+        "html_url": "https://github.com/78/xiaozhi-esp32/issues/1706",
+        "created_at": "2026-01-29T13:27:41Z",
+        "updated_at": "2026-10-13T03:43:43Z"
+      }
+    },
+    {
+      "repo": "slvDev/esp32-ai",
+      "releases": 0,
+      "assets": 0,
+      "asset_downloads": 0,
+      "tab5_assets": 0,
+      "tab5_asset_downloads": 0,
+      "newest_release": null,
+      "release_url": "https://github.com/slvDev/esp32-ai/releases",
+      "rate_remaining": "42",
+      "issues_total": 15,
+      "search_incomplete": false,
+      "most_commented_issue": {
+        "number": 7,
+        "title": "Is this real? You did a .gitignore on the most important bits!",
+        "comments": 3,
+        "html_url": "https://github.com/slvDev/esp32-ai/issues/7",
+        "created_at": "2026-07-26T18:25:35Z",
+        "updated_at": "2026-07-31T10:04:24Z"
+      }
+    },
+    {
+      "repo": "espressif/esp-sr",
+      "releases": 5,
+      "assets": 0,
+      "asset_downloads": 0,
+      "tab5_assets": 0,
+      "tab5_asset_downloads": 0,
+      "newest_release": "v2.0.0",
+      "release_url": "https://github.com/espressif/esp-sr/releases",
+      "rate_remaining": "41",
+      "issues_total": 243,
+      "search_incomplete": false,
+      "most_commented_issue": {
+        "number": 88,
+        "title": "Want to suggest a wake word? Leave your thoughts here. (AIS-1441)",
+        "comments": 537,
+        "html_url": "https://github.com/espressif/esp-sr/issues/88",
+        "created_at": "2023-12-14T03:23:19Z",
+        "updated_at": "2026-10-16T18:02:46Z"
+      }
+    },
+    {
+      "repo": "espressif/esp-dl",
+      "releases": 3,
+      "assets": 0,
+      "asset_downloads": 0,
+      "tab5_assets": 0,
+      "tab5_asset_downloads": 0,
+      "newest_release": "v3.2.0",
+      "release_url": "https://github.com/espressif/esp-dl/releases",
+      "rate_remaining": "39",
+      "issues_total": 299,
+      "search_incomplete": false,
+      "most_commented_issue": {
+        "number": 241,
+        "title": "My model has 5 categories, and after quantization, regardless of which category the input data is from, the output is always category 2. This is the case every time it is quantized (AIV-791)",
+        "comments": 47,
+        "html_url": "https://github.com/espressif/esp-dl/issues/241",
+        "created_at": "2025-06-03T06:58:13Z",
+        "updated_at": "2025-06-10T08:05:32Z"
+      }
+    },
+    {
+      "repo": "DaveBben/esp32-llm",
+      "releases": 0,
+      "assets": 0,
+      "asset_downloads": 0,
+      "tab5_assets": 0,
+      "tab5_asset_downloads": 0,
+      "newest_release": null,
+      "release_url": "https://github.com/DaveBben/esp32-llm/releases",
+      "rate_remaining": "38",
+      "issues_total": 5,
+      "search_incomplete": false,
+      "most_commented_issue": {
+        "number": 3,
+        "title": "error passing arguments",
+        "comments": 3,
+        "html_url": "https://github.com/DaveBben/esp32-llm/issues/3",
+        "created_at": "2025-04-11T08:11:39Z",
+        "updated_at": "2025-04-24T08:46:46Z"
+      }
+    },
+    {
+      "repo": "lorcan35/TinkerTab",
+      "releases": 0,
+      "assets": 0,
+      "asset_downloads": 0,
+      "tab5_assets": 0,
+      "tab5_asset_downloads": 0,
+      "newest_release": null,
+      "release_url": "https://github.com/lorcan35/TinkerTab/releases",
+      "rate_remaining": "37",
+      "issues_total": 339,
+      "search_incomplete": false,
+      "most_commented_issue": {
+        "number": 721,
+        "title": "Wave 0: Stability — crash under mixed load + dead-home recovery",
+        "comments": 5,
+        "html_url": "https://github.com/lorcan35/TinkerTab/issues/721",
+        "created_at": "2026-05-26T07:21:31Z",
+        "updated_at": "2026-05-26T09:31:10Z"
+      }
+    },
+    {
+      "repo": "m5stack/StackFlow",
+      "releases": 6,
+      "assets": 98,
+      "asset_downloads": 2525,
+      "tab5_assets": 0,
+      "tab5_asset_downloads": 0,
+      "newest_release": "v1.7.0",
+      "release_url": "https://github.com/m5stack/StackFlow/releases",
+      "rate_remaining": "36",
+      "issues_total": 11,
+      "search_incomplete": false,
+      "most_commented_issue": {
+        "number": 25,
+        "title": "crossbuild package doesn't include absl library",
+        "comments": 11,
+        "html_url": "https://github.com/m5stack/StackFlow/issues/25",
+        "created_at": "2026-01-23T04:38:49Z",
+        "updated_at": "2026-05-18T01:48:33Z"
+      }
+    },
+    {
+      "repo": "hey-its-brian/tab5-cyberdeck",
+      "releases": 29,
+      "assets": 63,
+      "asset_downloads": 94,
+      "tab5_assets": 63,
+      "tab5_asset_downloads": 94,
+      "newest_release": "v1.3.0-beta.2",
+      "release_url": "https://github.com/hey-its-brian/tab5-cyberdeck/releases",
+      "rate_remaining": "35",
+      "issues_total": 1,
+      "search_incomplete": false,
+      "most_commented_issue": {
+        "number": 1,
+        "title": "Crashes on boot - ST7123 Variant + Keyboard",
+        "comments": 2,
+        "html_url": "https://github.com/hey-its-brian/tab5-cyberdeck/issues/1",
+        "created_at": "2026-10-06T18:32:04Z",
+        "updated_at": "2026-10-15T14:51:12Z"
+      }
+    },
+    {
+      "repo": "akdeb/ElatoAI",
+      "releases": 0,
+      "assets": 0,
+      "asset_downloads": 0,
+      "tab5_assets": 0,
+      "tab5_asset_downloads": 0,
+      "newest_release": null,
+      "release_url": "https://github.com/akdeb/ElatoAI/releases",
+      "rate_remaining": "34",
+      "issues_total": 24,
+      "search_incomplete": false,
+      "most_commented_issue": {
+        "number": 2,
+        "title": "[Preferences.cpp:483] getString(): nvs_get_str len fail: auth_token NOT_FOUND",
+        "comments": 9,
+        "html_url": "https://github.com/akdeb/ElatoAI/issues/2",
+        "created_at": "2025-04-28T05:22:14Z",
+        "updated_at": "2025-05-23T10:46:25Z"
+      }
+    },
+    {
+      "repo": "wangzongming/esp-ai",
+      "releases": 41,
+      "assets": 0,
+      "asset_downloads": 0,
+      "tab5_assets": 0,
+      "tab5_asset_downloads": 0,
+      "newest_release": "v2.95.56",
+      "release_url": "https://github.com/wangzongming/esp-ai/releases",
+      "rate_remaining": "33",
+      "issues_total": 16,
+      "search_incomplete": false,
+      "most_commented_issue": {
+        "number": 4,
+        "title": "开始请求TTS:  LLM 数据返回错误！",
+        "comments": 3,
+        "html_url": "https://github.com/wangzongming/esp-ai/issues/4",
+        "created_at": "2024-07-12T09:40:19Z",
+        "updated_at": "2024-07-12T13:38:20Z"
+      }
+    }
+  ],
+  "additional_backend": {
+    "repo": "xinnan-tech/xiaozhi-esp32-server",
+    "stars": 10874,
+    "forks": 3701,
+    "pushed_at": "2026-10-15T14:58:11Z",
+    "issues_total": 1800,
+    "most_commented_issue": {
+      "number": 416,
+      "comments": 39,
+      "html_url": "https://github.com/xinnan-tech/xiaozhi-esp32-server/issues/416"
+    }
+  }
+}

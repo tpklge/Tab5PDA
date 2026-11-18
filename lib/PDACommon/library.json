@@ -1,0 +1,8 @@
+{
+  "name": "PDACommon",
+  "version": "1.0.0",
+  "description": "Portable records and recoverable snapshot storage for CardputerPDA and Tab5PDA",
+  "build": { "includeDir": "include", "srcDir": "src" },
+  "frameworks": "*",
+  "platforms": "*"
+}
